@@ -672,6 +672,7 @@ address {
   left: 50%;
   transform: translate(-50%, -50%) scale(1) rotate(0);
   transition: transform 500ms;
+  padding: 40px;
 }
 .modal-close-btn {
   display: flex;
@@ -691,4 +692,53 @@ address {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
+}
+
+.modal-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 12px;
+
+  color: var(--primary-text-color);
+}
+
+.modal-input {
+  width: 448px;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding-left: 30px;
+}
+.modal-button {
+  color: var(--primary-bg-color);
+  background-color: var(--acent-color);
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 10px 55px;
+  min-width: 200px;
+  text-align: center;
+  border: var(--acent-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-button:hover,
+.modal-button:focus {
+  background-color: #188ce8;
+}
+.modal-text {
+  width: 448px;
+  height: 120px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  resize: none;
 }

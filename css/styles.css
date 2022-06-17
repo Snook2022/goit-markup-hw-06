@@ -817,7 +817,7 @@ address {
   color: #757575;
   display: flex;
   margin-bottom: 20px;
-  align-items: baseline;
+  align-items: center;
   justify-content: center;
 }
 
